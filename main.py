@@ -10,19 +10,24 @@ import time
 import threading
 from urllib.parse import urlparse
 
-# Add handlers to path
-sys.path.append(os.path.join(os.path.dirname(__file__), 'handlers'))
-sys.path.append(os.path.join(os.path.dirname(__file__), 'utils'))
+# Add paths
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'handlers'))
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'utils'))
 
+# Import handlers
 from udp_flood import UDPFlood
 from tcp_syn import TCPSynFlood
 from http_flood import HTTPFlood
 from https_flood import HTTPSFlood
 from mixed_attack import MixedAttack
+
+# Import utils
 from ip_hider import IPHider
 from cloudflare_bypass import CloudflareBypass
 from colors import Colors
 
+# ... rest of code ...
 class DDoSTool:
     def __init__(self):
         self.running = False
