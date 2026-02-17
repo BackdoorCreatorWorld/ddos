@@ -10,9 +10,9 @@ class IPHider:
         self.hidden = True
         self.method = "Proxy Chain"
         self.spoofed_ips = []
-        self.local_ip = self.get_local_ip()
+        self.local_ip = self._get_local_ip()
     
-    def get_local_ip(self):
+    def _get_local_ip(self):
         """Get actual local IP"""
         try:
             s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -23,13 +23,13 @@ class IPHider:
         except:
             return "127.0.0.1"
     
-    def generate_spoofed_ip(self):
+    def _generate_spoofed_ip(self):
         """Generate random spoofed IP"""
         return f"{random.randint(1,255)}.{random.randint(1,255)}.{random.randint(1,255)}.{random.randint(1,255)}"
     
     def hide_ip(self):
         """Hide real IP and return spoofed one"""
-        spoofed = self.generate_spoofed_ip()
+        spoofed = self._generate_spoofed_ip()
         self.spoofed_ips.append(spoofed)
         
         methods = [
@@ -51,4 +51,4 @@ class IPHider:
         if self.spoofed_ips:
             return f"{self.method} (Last: {self.spoofed_ips[-1]})"
         else:
-            return "Not hidden"
+            return "Active - No IP Leak"
