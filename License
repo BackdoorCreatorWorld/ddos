@@ -1,0 +1,193 @@
+# CUSTOM SOFTWARE LICENSE AGREEMENT
+
+## DDoS Attack Tool - Professional Edition
+**Copyright © 2026 s3cret_proj3ct**
+**All Rights Reserved**
+
+---
+
+## 1. DEFINITIONS
+
+- **"Software"** refers to the DDoS Attack Tool, including all source code, scripts, documentation, and associated files.
+- **"Owner"** refers to s3cret_proj3ct, the copyright holder and developer.
+- **"User"** refers to any individual or entity downloading, installing, or using the Software.
+- **"Authorized Testing"** means security testing performed on systems owned by the User or systems for which the User has explicit written permission from the owner.
+- **"Unauthorized Use"** means any use of the Software not falling under Authorized Testing.
+
+---
+
+## 2. LICENSE GRANT
+
+Subject to the terms and conditions of this Agreement, the Owner grants the User a **non-exclusive, non-transferable, revocable license** to:
+
+a) Download and install the Software
+b) Use the Software for Authorized Testing purposes only
+c) Modify the Software for personal use
+d) Create backup copies for archival purposes
+
+---
+
+## 3. RESTRICTIONS
+
+The User **MAY NOT**:
+
+a) Use the Software for any illegal purpose or in violation of any laws
+b) Use the Software against any system without explicit written permission
+c) Distribute, sublicense, rent, lease, or sell the Software
+d) Remove or alter any proprietary notices or labels on the Software
+e) Use the Software to provide commercial services to third parties
+f) Claim ownership or authorship of the Software
+g) Remove the Owner's credit or attribution
+h) Use the Software in any way that could damage the Owner's reputation
+
+---
+
+## 4. LEGAL COMPLIANCE WARNING
+
+### 4.1 International Laws
+The User acknowledges that unauthorized use of this Software may violate:
+
+| Jurisdiction | Law | Maximum Penalty |
+|--------------|-----|-----------------|
+| United States | Computer Fraud and Abuse Act (CFAA), 18 U.S.C. § 1030 | 20 years imprisonment + $250,000 fine |
+| United Kingdom | Computer Misuse Act 1990 | 10 years imprisonment + Unlimited fine |
+| European Union | Directive 2013/40/EU on attacks against information systems | 5 years imprisonment + €10M fine |
+| Australia | Cybercrime Act 2001 | 10 years imprisonment + AUD 110,000 fine |
+| Canada | Criminal Code, RSC 1985, c C-46 | 10 years imprisonment + CAD 5,000 fine |
+| Indonesia | UU ITE No. 19 Tahun 2016 | 12 years imprisonment + Rp 12M fine |
+| Singapore | Computer Misuse Act (Cap 50A) | 20 years imprisonment + SGD 500,000 fine |
+| India | Information Technology Act, 2000 | 3 years imprisonment + INR 500,000 fine |
+| Japan | Unauthorized Computer Access Law | 3 years imprisonment + JPY 1M fine |
+| China | Cybersecurity Law | 5 years imprisonment + Unlimited fines |
+
+### 4.2 User Responsibility
+By using this Software, the User:
+
+a) Acknowledges they have read and understood these legal warnings
+b) Agrees to comply with all applicable laws and regulations
+c) Accepts full responsibility for any consequences of their actions
+d) Waives any right to hold the Owner liable for damages
+e) Certifies they are of legal age in their jurisdiction (minimum 18 years)
+
+---
+
+## 5. AUTHORIZED USE POLICY
+
+### 5.1 Permitted Systems
+The User may ONLY use this Software on:
+
+✓ Systems **owned** by the User
+✓ Systems where the User has **explicit written permission** from the owner
+✓ Authorized penetration testing engagements with signed contracts
+✓ Educational environments with proper supervision
+✓ Research projects with ethical approval
+
+### 5.2 Required Documentation
+Before any testing, the User must possess:
+
+- [ ] Written authorization letter on official letterhead
+- [ ] Signed contract specifying testing scope
+- [ ] Defined testing windows and exclusions
+- [ ] Emergency contact information
+- [ ] Insurance documentation (for commercial testing)
+
+### 5.3 Prohibited Systems
+The User MUST NEVER use this Software on:
+
+✗ Government systems
+✗ Critical infrastructure
+✗ Healthcare systems
+✗ Financial institutions
+✗ Educational institutions (without permission)
+✗ Third-party systems without consent
+✗ Any system in jurisdictions where such testing is illegal
+
+---
+
+## 6. DISCLAIMER OF WARRANTIES
+
+**THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND.**
+
+The Owner expressly disclaims all warranties, whether express, implied, statutory, or otherwise, including but not limited to:
+
+a) The Software will meet the User's requirements
+b) The Software will be uninterrupted, timely, secure, or error-free
+c) The results obtained from using the Software will be accurate or reliable
+d) Any errors in the Software will be corrected
+
+The User assumes all risk for any damage to their systems or data resulting from use of the Software.
+
+---
+
+## 7. LIMITATION OF LIABILITY
+
+**TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE OWNER SHALL NOT BE LIABLE FOR:**
+
+a) Direct damages exceeding USD $1.00 (one dollar)
+b) Indirect, incidental, special, consequential, or punitive damages
+c) Loss of profits, revenue, data, or business opportunities
+d) Damage to reputation or goodwill
+e) Third-party claims against the User
+f) Legal penalties, fines, or imprisonment incurred by the User
+
+This limitation applies even if the Owner has been advised of the possibility of such damages.
+
+---
+
+## 8. INDEMNIFICATION
+
+The User agrees to **indemnify, defend, and hold harmless** the Owner from and against any and all claims, liabilities, damages, losses, costs, expenses, or fees (including reasonable attorneys' fees) arising from:
+
+a) The User's use or misuse of the Software
+b) Any violation of this Agreement by the User
+c) Any violation of any law or third-party right by the User
+d) Any claim that the User's use caused damage to a third party
+
+---
+
+## 9. TERMINATION
+
+### 9.1 Automatic Termination
+This license terminates immediately and without notice if the User:
+
+a) Violates any term of this Agreement
+b) Uses the Software for unauthorized purposes
+c) Distributes the Software without permission
+d) Is convicted of any cybercrime
+e) Becomes subject to any investigation related to cybercrime
+
+### 9.2 Effects of Termination
+Upon termination, the User must:
+
+a) Immediately cease all use of the Software
+b) Delete all copies of the Software
+c) Certify in writing that deletion has occurred
+d) Destroy all related documentation
+
+---
+
+## 10. GOVERNING LAW AND JURISDICTION
+
+a) This Agreement shall be governed by the laws of **international cybercrime treaties**
+b) Any disputes shall be resolved in the courts of **the Owner's choosing**
+c) The User consents to personal jurisdiction in any venue
+d) The prevailing party shall be entitled to reasonable attorneys' fees
+
+---
+
+## 11. SEVERABILITY
+
+If any provision of this Agreement is held to be unenforceable or invalid, that provision shall be enforced to the maximum extent possible, and the remaining provisions shall remain in full force and effect.
+
+---
+
+## 12. ENTIRE AGREEMENT
+
+This Agreement constitutes the entire agreement between the parties and supersedes all prior or contemporaneous understandings regarding the Software.
+
+---
+
+## 13. ACKNOWLEDGMENT
+
+**BY DOWNLOADING, INSTALLING, OR USING THE SOFTWARE, THE USER ACKNOWLEDGES THAT:**
+
