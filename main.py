@@ -10,22 +10,31 @@ import time
 import threading
 from urllib.parse import urlparse
 
-# Add paths
+# Add paths - PASTIKAN INI
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'handlers'))
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'utils'))
 
 # Import handlers
-from udp_flood import UDPFlood
-from tcp_syn import TCPSynFlood
-from http_flood import HTTPFlood
-from https_flood import HTTPSFlood
-from mixed_attack import MixedAttack
+try:
+    from handlers.udp_flood import UDPFlood
+    from handlers.tcp_syn import TCPSynFlood
+    from handlers.http_flood import HTTPFlood
+    from handlers.https_flood import HTTPSFlood
+    from handlers.mixed_attack import MixedAttack
+    print("✅ Handlers imported")
+except Exception as e:
+    print(f"❌ Handler import error: {e}")
 
-# Import utils
-from ip_hider import IPHider
-from cloudflare_bypass import CloudflareBypass
-from colors import Colors
+# Import utils - PAKE DARI utils.
+try:
+    from utils.ip_hider import IPHider
+    from utils.cloudflare_bypass import CloudflareBypass
+    from utils.colors import Colors
+    print("✅ Utils imported")
+except Exception as e:
+    print(f"❌ Util import error: {e}")
+    sys.exit(1)
 
 # ... rest of code ...
 class DDoSTool:
